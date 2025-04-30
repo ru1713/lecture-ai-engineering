@@ -33,6 +33,7 @@ st.header("基本的なUI要素")
 # テキスト入力
 st.subheader("テキスト入力")
 name = st.text_input("あなたの名前", "ゲスト")
+age = st.slider("年齢を選択してください", 0, 100, 25)
 st.write(f"こんにちは、{name}さん！")
 
 # ボタン
